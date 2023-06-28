@@ -5,6 +5,7 @@
  * @c: Character to be evaluated.
  *
  * Return: 1 if c is printable, 0 otherwise
+ *wise
  */
 int is_printable(char c)
 {
