@@ -10,6 +10,7 @@
  * @precision: precision specification
  * @size: Size specifier
  * Return: number of characters printed.
+ *precision
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -45,6 +46,7 @@ int print_unsigned(va_list types, char buffer[],
  * @precision: Precision specification
  * @size: Size specifier
  * Return: number of characters printed
+ *flag
  */
 int print_octal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
