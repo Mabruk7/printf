@@ -10,6 +10,7 @@
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of characters printed.
+ *buffer
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -62,6 +63,7 @@ int print_pointer(va_list types, char buffer[],
  * @precision: Precision specifications
  * @size: Size specifier
  * Return: Number of characters printed
+ *size
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
